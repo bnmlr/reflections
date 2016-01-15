@@ -7,3 +7,5 @@ What are some situations when branches would be helpful in keeping your history 
 -When you want to make not a new version of something, but an alternate version. Branching allows you to keep the alternate and original version separate.
 How do the diagrams help you visualize the branch structure?
 -see where branches originate, potential unreachable commits, etc.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-Git compares the two branches to their common ancestor to determine which lines should stay and which shouldn't. Represented in diagram as two branches coming together because all commits from both branches are still available.
